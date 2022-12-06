@@ -60,6 +60,10 @@ describe("User, Board and Cheese Models", () => {
         expect(spongebobUser.email).toBe("spongebob.squarepants@krustykrab.com");
     });
 
+    test("can create Boards with many cheeses", async () => {
+        // left here... Boards < - > Cheeses on pt4.
+    })
+
 });
 
 
